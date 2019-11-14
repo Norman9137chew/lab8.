@@ -6,4 +6,4 @@ class TestMyProgram(unittest.TestCase):
         self.assertTrue('FOO'.isupper())
         self.assertFalse('foo'.isupper())
 if __name__=='__main__':
-    unittest.main
+    unittest.main()
